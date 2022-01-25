@@ -23,7 +23,7 @@ public class Foreach {
         aprovados.forEach(nome -> meuImprimir(nome));
 
         System.out.println("\nMethod Reference #02....");
-        aprovados.forEach(Foreach::meuImprimir);
+        aprovados.forEach(Foreach::meuImprimir );
     }
 
     //  Metodo para ter uma impressão customizada com lambda e method reference

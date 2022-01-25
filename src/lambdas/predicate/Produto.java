@@ -10,4 +10,25 @@ public class Produto {
         this.preco = preco;
         this.desconto = desconto;
     }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public double getPreco() {
+        return preco;
+    }
+
+    public double getDesconto() {
+        return desconto;
+    }
+
+    @Override
+    public String toString() {
+        return "Produto{" +
+                "nome='" + nome + '\'' +
+                ", preco=" + preco +
+                ", desconto=" + desconto +
+                '}';
+    }
 }

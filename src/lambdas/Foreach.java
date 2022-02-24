@@ -30,4 +30,7 @@ public class Foreach {
     static void meuImprimir(String nome) {
         System.out.println("Oi! Meu nome é " + nome);
     }
+    static void Imprimir(String nome) {
+        System.out.println("Oi! Meu nome é " + nome);
+    }
 }
